@@ -3,9 +3,9 @@ session_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-require 'C:\Users\ykram\Downloads\PHPMailer-master\PHPMailer-master\src\PHPMailer.php';
-require 'C:\Users\ykram\Downloads\PHPMailer-master\PHPMailer-master\src\Exception.php';
-require 'C:\Users\ykram\Downloads\PHPMailer-master\PHPMailer-master\src\SMTP.php';
+require '\PHPMailer.php';
+require '\Exception.php';
+require '\SMTP.php';
 $mail = new PHPMailer(true);
 
 try {
